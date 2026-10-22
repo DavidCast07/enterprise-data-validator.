@@ -7,7 +7,7 @@
 
 An enterprise-grade **Master Data Governance (MDG) & Automated Data Quarantine Pipeline** built with **FastAPI, Pydantic V2, SQLAlchemy 2.0, and PostgreSQL 16**. 
 
-Designed to solve real-world ERP data migration bottlenecks (such as **SAP S/4HANA & SimpleMDG** templates) by intercepting dirty CSV/JSON payloads, enforcing strict business validation rules, deduplicating records via SQL Window Functions, and routing rejected rows into an asynchronous audit quarantine log.
+Designed to solve real-world ERP data migration bottlenecks (such as **SAP S/4HANA** templates) by intercepting dirty CSV/JSON payloads, enforcing strict business validation rules, deduplicating records via SQL Window Functions, and routing rejected rows into an asynchronous audit quarantine log.
 
 ---
 
